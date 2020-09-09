@@ -6,7 +6,7 @@ date_default_timezone_set("Europe/London");
 try {
   
     // $con = new PDO('mysql:dbname=premiere;host=localhost', 'root', '');
-    $db = new PDO('mysql:host=premiereserver.mysql.database.azure.com;port=3306;dbname=test', 'myadmin@premiereserver', 'Password123', $options);
+    $db = new PDO('mysql:host=trinatestserver.mysql.database.azure.com;port=3306;dbname=testdb', 'myadmin@trinatestserver', 'Password123', $options);
 
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 } catch (PDOException $e) {
