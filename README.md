@@ -14,6 +14,7 @@ The App is a clone of Netflix.
 - 'Play' next episode if a TV Show on watch page
 - 'Continue Watching' - start from last played point in video
 - Mark video as seen
+- Add Guest user for demo purposes
 
 ## Database
 
