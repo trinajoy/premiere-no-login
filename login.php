@@ -44,6 +44,10 @@ function getInputValue($name)
     <div class="signInContainer">
         <div class="column">
 
+
+
+
+            <!-- sign in  -->
             <div class="header">
                 <img src="assets/images/logo.png" alt="site logo" title="logo" />
                 <h3> Sign In</h3>
@@ -58,6 +62,26 @@ function getInputValue($name)
                 <input type="password" name="password" placeholder="Password" required>
                 <input type="submit" name="submitButton" value="SUBMIT">
             </form>
+
+            <!-- guest  -->
+            <div class="header-guest" id="guest">
+
+
+
+                <form method="POST">
+
+                    <h3> Guest User</h3>
+                    <span> to continue without Login</span>
+
+                    <?php echo $account->getError(Constants::$loginFailed); ?>
+                    <input type="hidden" name="userName" placeholder="guest" value="Guest" required>
+                    <input type="hidden" name="password" placeholder="guest" value="Guest" required>
+                    <input type="submit" name="submitButton" value="GUEST">
+                </form>
+
+
+            </div>
+
             <a href="register.php" class="signInMessage"> Need an account? Sign Up here!</a>
         </div>
     </div>

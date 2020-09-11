@@ -28,6 +28,8 @@ a {
   background-color: #141414;
 }
 
+/* login  */
+
 .signInContainer {
   background-color: #efefee;
   height: 100vh;
@@ -75,6 +77,23 @@ a {
   font-size: 16px;
 }
 
+.header-guest form input[type='submit'] {
+  background-color: #cd0a0a;
+  color: #fff;
+  height: 36px;
+  width: 86px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#guest h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
 .column .header {
   padding: 20px 0;
 }
@@ -88,7 +107,8 @@ a {
   color: #000;
 }
 
-.column .header span {
+.column .header span,
+#guest span {
   font-size: 14px;
 }
 
