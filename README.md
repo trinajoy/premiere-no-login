@@ -15,7 +15,7 @@ The App is a clone of Netflix.
 - 'Continue Watching' - start from last played point in video
 - Mark video as seen
 
-## Databse
+## Database
 
 - mySQL DB hosted on heroku with clearDB addon + sequelPro
 
