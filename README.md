@@ -20,6 +20,12 @@ The App is a clone of Netflix.
 
 - mySQL DB hosted on heroku with clearDB addon + sequelPro
 
+## Online tools for media content
+
+- For downloading youtube videos - ClipGrap App
+- Edit length of mp4s - https://online-video-cutter.com/
+- Compress images - https://compresspng.com/
+
 ## Sources
 
 - https://www.udemy.com/course/netflix-clone/
