@@ -15,6 +15,7 @@ The App is a clone of Netflix.
 - 'Continue Watching' - start from last played point in video
 - Mark video as seen
 - Add Guest user for demo purposes
+- Videos under 30 secs to save storage space
 
 ## Database
 
@@ -25,8 +26,9 @@ The App is a clone of Netflix.
 - For downloading youtube videos - ClipGrap App
 - Edit length of mp4s - https://online-video-cutter.com/
 - Compress images - https://compresspng.com/
+- Content Info - www.imdb.com
 
 ## Sources
 
-- https://www.udemy.com/course/netflix-clone/
-- Logo: https://fontmeme.com/netflix-font/
+- Based on tutorial - https://www.udemy.com/course/netflix-clone/
+- Premiere Logo: https://fontmeme.com/netflix-font/
